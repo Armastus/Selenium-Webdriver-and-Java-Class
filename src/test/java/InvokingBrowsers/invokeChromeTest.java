@@ -22,7 +22,7 @@ public class invokeChromeTest {
         Assert.assertTrue("Title should start with Epic Games.", chromeDriver.getTitle().startsWith("Epic Games"));
         //get the page source. Good is site does not allow to right click for page source.
         System.out.println(chromeDriver.getPageSource());
-        //get the actual browsers URL to verify it is correct
+        //get the actual browsers URL to verify it is correct.
         System.out.println(chromeDriver.getCurrentUrl());
         //close the browser
         chromeDriver.close();

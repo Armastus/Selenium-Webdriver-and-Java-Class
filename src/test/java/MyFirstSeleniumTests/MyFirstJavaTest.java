@@ -14,8 +14,8 @@ public class MyFirstJavaTest {
 
         WebDriver driver = new FirefoxDriver();
 
-        driver.navigate().to("http://seleniumsimplified.com");
-        Assert.assertTrue("title should start with Selenium Simplified", driver.getTitle().startsWith("Selenium Simplified"));
+        driver.navigate().to("http://epicgames.com");
+        Assert.assertTrue("title should start with Epic Games", driver.getTitle().startsWith("Epic Games"));
 
         driver.close();
         driver.quit();
